@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Protect Our Planet</title>
+  <style>
+    /* Reset & base */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+      color: #2c3e50;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #27ae60;
+      color: white;
+      padding: 2rem 1rem 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      border-radius: 0 0 20px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    header img {
+      width: 100%;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    nav {
+      background: #2ecc71;
+      display: flex;
+      justify-content: center;
+      padding: 0.7rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1.2rem;
+      font-weight: 600;
+      transition: color 0.3s;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      color: #145a32;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      flex-grow: 1;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    section {
+      padding: 2rem 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      color: #27ae60;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 3px solid #27ae60;
+      padding-bottom: 0.3rem;
+    }
+
+    section p, section ul {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      list-style-type: disc;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .resources a {
+      color: #27ae60;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .resources a:hover {
+      text-decoration: underline;
+    }
+
+    .news-article {
+      margin-bottom: 1.5rem;
+    }
+
+    .news-article h3 {
+      color: #27ae60;
+      margin-bottom: 0.3rem;
+      font-size: 1.3rem;
+    }
+
+    .news-article p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        margin: 0 0.7rem;
+        font-size: 1rem;
+      }
+      main {
+        margin: 1rem auto;
+        padding: 1rem;
+      }
+      section h2 {
+        font-size: 1.6rem;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #2c3e50;
+      background: #d7f3e3;
+      box-shadow: 0 -3px 6px rgba(0,0,0,0.1);
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Protect Our Planet</h1>
+    <p>Our planet is facing serious challenges like pollution and climate change. Together, we can make a difference!</p>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80" alt="Beautiful nature landscape" />
+  </header>
+
+  <nav>
+    <a href="#intro">Introduction</a>
+    <a href="#why">Why It Matters</a>
+    <a href="#tips">Easy Tips</a>
+    <a href="#resources">Resources</a>
+    <a href="#initiatives">Initiatives</a>
+    <a href="#news">News</a>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Introduction / About the Issue</h2>
+      <p>Protecting the planet is essential for sustaining life on Earth. Human activities have caused climate change, pollution, deforestation, and loss of biodiversity — all threatening the balance of our ecosystems.</p>
+      <p>By understanding these problems and taking action, we can help preserve our home for future generations.</p>
+    </section>
+
+    <section id="why">
+      <h2>Why It Matters</h2>
+      <p>Key environmental problems:</p>
+      <ul>
+        <li><strong>Climate Change:</strong> Rising temperatures cause extreme weather, ice melt, and sea-level rise.</li>
+        <li><strong>Pollution:</strong> Air, water, and soil pollution harm health and wildlife.</li>
+        <li><strong>Deforestation:</strong> Trees are cut down faster than they regrow, reducing oxygen and habitats.</li>
+        <li><strong>Loss of Biodiversity:</strong> Species extinction disrupts ecosystems and food chains.</li>
+      </ul>
+      <p>Quick facts:</p>
+      <ul>
+        <li>The last decade was the warmest on record.</li>
+        <li>Over 8 million tons of plastic enter oceans yearly.</li>
+        <li>More than 15 billion trees lost each year globally.</li>
+      </ul>
+    </section>
+
+    <section id="tips">
+      <h2>Easy Tips to Help</h2>
+      <ul>
+        <li>Use less plastic – bring reusable bags & bottles.</li>
+        <li>Turn off lights and unplug devices when not in use.</li>
+        <li>Recycle paper, plastic, glass, and metals properly.</li>
+        <li>Plant a tree or support reforestation projects.</li>
+        <li>Walk, bike, or use public transport instead of driving.</li>
+      </ul>
+      <p>Encourage sustainable living: use renewable energy, buy eco-friendly products, and reduce waste.</p>
+    </section>
+
+    <section id="resources" class="resources">
+      <h2>Educational Resources</h2>
+      <p>Learn more about environmental science and stay updated with the latest research:</p>
+      <ul>
+        <li><a href="https://www.nationalgeographic.com/environment/article/environmental-issues" target="_blank" rel="noopener">National Geographic: Environmental Issues</a></li>
+        <li><a href="https://climate.nasa.gov/" target="_blank" rel="noopener">NASA Climate Change Portal</a></li>
+        <li><a href="https://www.epa.gov/environmental-topics" target="_blank" rel="noopener">EPA Environmental Topics</a></li>
+      </ul>
+      <p>Watch helpful videos explaining concepts like carbon footprint and global warming on platforms like YouTube or TED Talks.</p>
+    </section>
+
+    <section id="initiatives">
+      <h2>Local and Global Initiatives</h2>
+      <p>Some organizations and agreements working to protect the environment:</p>
+      <ul>
+        <li><strong>World Wildlife Fund (WWF)</strong> – Protecting endangered species and habitats.</li>
+        <li><strong>Greenpeace</strong> – Environmental activism worldwide.</li>
+        <li><strong>The Paris Agreement</strong> – Global pact to limit climate change.</li>
+      </ul>
+      <p>Look for local events like clean-up drives or tree-planting campaigns in your community and join in!</p>
+    </section>
+
+    <section id="news">
+      <h2>Latest News & Updates</h2>
+      <article class="news-article">
+        <h3>Global Climate Summit 2025</h3>
+        <p>World leaders meet to discuss new policies to reduce greenhouse gas emissions and support renewable energy development worldwide.</p>
+      </article>
+      <article class="news-article">
+        <h3>Plastic Ban Expands</h3>
+        <p>Several countries have expanded bans on single-use plastics to fight pollution in oceans and waterways.</p>
+      </article>
+      <article class="news-article">
+        <h3>New Research on Deforestation</h3>
+        <p>Scientists warn that deforestation rates in the Amazon have increased by 20% in the last year, urging immediate action.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Protect Our Planet Initiative. All rights reserved.
+  </footer>
+
+</body>
+</html>
